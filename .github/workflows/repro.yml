@@ -25,3 +25,6 @@ jobs:
       - name: Issue 2 ISO
         run: python issue2-iso.py
         continue-on-error: true
+      - name: Issue 4
+        run: python issue4.py
+        continue-on-error: true
