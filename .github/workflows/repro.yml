@@ -20,3 +20,5 @@ jobs:
         run: python repro.py
       - name: Issue 1
         run: python issue1.py
+      - name: Issue 2
+        run: python issue2.py
