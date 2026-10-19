@@ -22,3 +22,6 @@ jobs:
         run: python issue1.py
       - name: Issue 2
         run: python issue2.py
+      - name: Issue 2 ISO
+        run: python issue2-iso.py
+        continue-on-error: true
